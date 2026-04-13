@@ -1,11 +1,10 @@
 Vagrant.configure("2") do |config|
-  # Box de base : Ubuntu 20.04 (Focal)
   config.vm.box = "ubuntu/focal64"
   config.vm.box_check_update = false   
 
-  # ---------------------------
+
   # Machine srv-app (application)
-  # ---------------------------
+
   config.vm.define "srv-app" do |app|
     app.vm.hostname = "srv-app"
     # Réseau privé avec IP fixe
@@ -20,9 +19,7 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  # ---------------------------
   # Machine srv-db (base de données)
-  # ---------------------------
   config.vm.define "srv-db" do |db|
     db.vm.hostname = "srv-db"
     db.vm.network "private_network", ip: "192.168.56.11"

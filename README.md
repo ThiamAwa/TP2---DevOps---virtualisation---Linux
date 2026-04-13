@@ -1,4 +1,4 @@
-  # 🚀 TP2 — Application Web Java Multi-VM : Vagrant + Tomcat 9 + MySQL
+  #  TP2 — Application Web Java Multi-VM : Vagrant + Tomcat 9 + MySQL
 
 ![Vagrant](https://img.shields.io/badge/Vagrant-2.x-1563FF?logo=vagrant&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04_LTS-E95420?logo=ubuntu&logoColor=white)
